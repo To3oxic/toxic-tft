@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="controllers.AddChampController" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="365.0" layoutY="14.0" text="add a Champ" />
+      <TextField fx:id="iconTextFeld" layoutX="235.0" layoutY="144.0" prefHeight="25.0" prefWidth="332.0" />
+      <TextField fx:id="nameField" layoutX="235.0" layoutY="193.0" prefHeight="25.0" prefWidth="332.0" text="name" />
+      <ComboBox fx:id="class1" layoutX="235.0" layoutY="247.0" prefWidth="150.0" promptText="class primery" />
+      <ComboBox fx:id="origin1" layoutX="235.0" layoutY="300.0" prefWidth="150.0" promptText="origin primery" />
+      <ComboBox fx:id="class2" layoutX="235.0" layoutY="355.0" prefWidth="150.0" promptText="class secondery" />
+      <ComboBox fx:id="origin2" layoutX="235.0" layoutY="406.0" prefWidth="150.0" promptText="origin secondery" />
+      <Button fx:id="iconBrowseButton" layoutX="597.0" layoutY="144.0" mnemonicParsing="false" text="Browse" />
+      <Button fx:id="back" layoutX="24.0" onAction="#clickBack" layoutY="554.0" mnemonicParsing="false" text="back" />
+      <Button fx:id="create" layoutX="715.0" onAction="#clickCreate" layoutY="554.0" mnemonicParsing="false" text="create" />
+   </children>
+</AnchorPane>
